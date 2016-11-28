@@ -8,12 +8,14 @@ function insertionSort(arr) {
   for (i = 0; i < length; i++) {
 
     value = arr[i];
+    j = i;
 
-    for (j = i-1; j > -1 && arr[j] > value; j--) {
-      arr[j+1] = arr[j];
+    while(j > 0 && arr[j-1] > value) {
+      arr[j] = arr[j-1];
+      j = j-1;
     }
 
-    arr[j+1] = value;
+    arr[j] = value;
   }
 
   return arr;
