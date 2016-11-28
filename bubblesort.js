@@ -2,9 +2,9 @@
 /*
  * Bubble sort 
  * Data structure Array
- * Worst-case performance O(n^2)
+ * Worst-case performance O(n²)
  * Best-case performance O(n)
- * Average performance  O(n^2)
+ * Average performance O(n²)
  * Worst-case space complexity  O(1) auxiliary
  *
  */
