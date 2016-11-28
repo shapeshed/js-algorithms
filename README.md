@@ -8,3 +8,4 @@ Some learning around algorithms and algorithmic design in JavaScript
 
 * Bubblesort O(N²)
 * Mergesort O(n log n)
+* Bucketsort  O(n²)
